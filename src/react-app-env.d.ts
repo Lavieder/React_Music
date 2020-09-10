@@ -64,3 +64,17 @@ declare module '*.module.sass' {
   const classes: { readonly [key: string]: string };
   export default classes;
 }
+
+declare module 'mockjs' {
+  export default mockjs;
+}
+
+declare module '*.mp3' {
+  const src: string;
+  export default src;
+}
+
+declare module 'react-audio-spectrum' {
+  const classes: any;
+  export default classes;
+}

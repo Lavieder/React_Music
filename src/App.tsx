@@ -39,18 +39,12 @@ class App extends Component<any> {
           {/* 右侧内容 */}
           <Layout className="site-layout">
             <Content>
-              {/* <Breadcrumb>
-                <Breadcrumb.Item>User</Breadcrumb.Item>
-                <Breadcrumb.Item>Bill</Breadcrumb.Item>
-              </Breadcrumb> */}
-              <div className="site-layout-background">
-                {/* 路由跳转 */}
-                <Switch>
-                  <Route path="/player" component={ Player } />
-                  <Route path="/list" component={ List } />
-                  <Redirect to="/player" />
-                </Switch>
-              </div>
+              {/* 路由跳转 */}
+              <Switch>
+                <Route path="/player" component={ Player } />
+                <Route path="/list" component={ List } />
+                <Redirect to="/player" />
+              </Switch>
             </Content>
           </Layout>
         </Layout>

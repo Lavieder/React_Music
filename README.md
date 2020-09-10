@@ -1,1 +1,1 @@
-react+less+create-react-app+Mockis+axios+ES6+antd+react-router-dom+TypeScript(+localStorage/sessionStorage)
+react+less+create-react-app+Mockjs+axios+ES6+antd+react-router-dom+TypeScript(+localStorage/sessionStorage)

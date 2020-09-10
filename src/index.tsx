@@ -4,10 +4,10 @@ import { HashRouter } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode> 严格模式
     <HashRouter>
       <App />
-    </HashRouter>
-  </React.StrictMode>,
+    </HashRouter>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
